@@ -1,4 +1,4 @@
-from valoresminimos import runMinimos
+from valoresminimos import run_minimos
 
 
 
@@ -18,7 +18,7 @@ if __name__ == "__main__":
 	while True:
 		opcion = menu()
 		if opcion == 1:
-			runMinimos()
+			run_minimos()
 		else:
 			print("Gracias por jugar")
 			exit(0)
